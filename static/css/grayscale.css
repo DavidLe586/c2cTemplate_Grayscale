@@ -63,7 +63,7 @@
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #0053CB;
+    color: #4f837f;
   }
   #mainNav.navbar-shrink .nav-link {
     color: #161616;
@@ -113,8 +113,8 @@
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 6rem;
+    line-height: 13rem;
   }
 }
 
@@ -124,8 +124,8 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 6rem;
+    line-height: 13rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
@@ -145,7 +145,7 @@
 }
 
 .btn-primary {
-  background-color: #012CBD;
+  background-color: #4f837f;
 }
 
 .btn-primary:hover {
@@ -158,7 +158,7 @@
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: white !important;
 }
 
 .about-section {
