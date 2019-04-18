@@ -23,3 +23,6 @@ def process_inputs():
 if __name__ == '__main__':
     app.run()
 
+    # import wordfilter
+    # wordfilter.add_words(["dumb", "lol", "loser"])
+    # wordfilter.blacklisted(['dumb'])
