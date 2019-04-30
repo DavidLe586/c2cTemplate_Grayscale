@@ -66,12 +66,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/WcI1e4KiDv0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/WcI1e4KiDv0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
           </div>
         </div>
-        <img src="../static/img/ipad.png" class="img-fluid" alt="">
       </div>
     </section>
 
@@ -134,7 +133,7 @@
 
     <!-- Signup Section -->
     <section id="signup" class="signup-section">
-     <form class="form-inline d-flex" action="{{ url_for('process_inputs') }}" method="POST">
+     <form class="d-flex" action="{{ url_for('process_inputs') }}" method="POST">
       <div class="container">
 
         <div class="row">
@@ -142,6 +141,7 @@
             <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 class="text-white mb-5">Post Opinions!</h2>
             <div class="Email">
+
                 <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" name="inputEmail" placeholder="Enter e-mail...">
             </div class="Email">
 
@@ -151,7 +151,7 @@
         <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
         <i class="far blank fa-2x mb-2 text-white"></i>
-              <input type="post" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" placeholder="Type opinion..." name="opinion" id="opinion">
+              <input type="post" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-3" placeholder="Type opinion..." name="opinion" id="opinion">
               <button type="submit" class="btn btn-primary mx-auto">Post</button>
         </div class="row">
 
